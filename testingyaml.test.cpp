@@ -3,7 +3,7 @@
 
 int main() {
   auto [x, y, z] = sort();
-  if (z != 35)
+  if (z == 35)
   {
     return true;
   }
