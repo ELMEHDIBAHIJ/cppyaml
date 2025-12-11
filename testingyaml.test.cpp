@@ -5,7 +5,9 @@ int main() {
   auto [x, y, z] = sort();
   if (z == 35)
   {
-    return true;
+    return 0;
+  }else{
+    return 1;
   }
   
 }
