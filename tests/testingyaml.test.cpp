@@ -3,10 +3,9 @@
 
 int main() {
   auto [x, y, z] = sort();
-  if (z == 35)
-  {
+  if (z > x) {
     return 0;
-  }else{
+  } else {
     return 1;
   }
   
