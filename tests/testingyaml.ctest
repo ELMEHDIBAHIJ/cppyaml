@@ -3,7 +3,7 @@
 
 int main() {
   auto [x, y, z] = sort();
-  if (z < x) {
+  if (x < z) {
     return 0;
   } else {
     return 1;
