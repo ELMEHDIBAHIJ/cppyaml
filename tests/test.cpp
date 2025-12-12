@@ -1,5 +1,5 @@
 #include <iostream>
-#include "testingyaml.cpp"
+#include "./testingyaml.cpp"
 
 int main() {
   auto [x, y, z] = sort();
