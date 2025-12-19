@@ -14,13 +14,10 @@ jobs:
     steps:
       
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4git a
       - name: Install dependencies 
         run: sudo apt-get update && sudo apt-get install -y cmake g++
       - name: Run tests
-        run: cd tests/test
-             g++ test.cpp -o test
-             test
-             ./test
+        run: cd tests/test && g++ test.cpp -o test && ./test
              
        
