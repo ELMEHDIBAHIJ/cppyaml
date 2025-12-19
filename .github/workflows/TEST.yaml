@@ -18,6 +18,6 @@ jobs:
       - name: Install dependencies 
         run: sudo apt-get update && sudo apt-get install -y cmake g++
       - name: Run tests
-        run: cd ../../tests
-         g++ test.cpp -o test
+        run: 
+         g++ ../../tests/test.cpp -o test
          ./test
